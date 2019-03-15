@@ -2,6 +2,7 @@
 title: Github Page+Hexo搭建个人博客
 date: 2019-03-15 11:07:50
 tags:
+categories: 杂项
 ---
 
 # 前提
@@ -19,15 +20,15 @@ tags:
 
 1. 查看文档进行安装[Node.js](https://nodejs.org/en/)和[Git](https://git-scm.com/)
 
-2. 安装 Hexo 
+2. 安装 Hexo
 
-   ```
+   ```js
    npm install -g hexo-cli
    ```
 
 3. 建站
 
-   ```
+   ```hexo
    hexo init 项目名
    cd 项目名
    npm install
@@ -37,7 +38,7 @@ tags:
 
 5. 启动服务器查看内容
 
-   ```
+   ```hexo
    hexo server
    ```
 
@@ -45,29 +46,27 @@ tags:
 
 1. 在Hexo建立的项目中安装依赖
 
-   ```
+   ```js
    npm install hexo-deployer-git --save
    ```
 
-   
-
 2. 打开Hexo建立的项目文件夹下的_config.yml文件，配置如下信息：
 
-   ```
+   ```text
    url: https://huabinluo.github.io/myNote/   （Github Page地址,涉及样式获取）
    root: /myNote/
    ```
 
-   ```
+   ```text
    deploy:
-    type: git 
+    type: git
     repository: https://github.com/HuabinLuo/myNote.git    (Github项目地址)
     branch: master
    ```
 
 3. 执行推送命令
 
-   ```
+   ```hexo
    hexo generate
    hexo deploy
    ```
@@ -76,7 +75,7 @@ tags:
 
 1. 将GitHub上的项目克隆到本地
 
-   ```
+   ```git
    git clone GitHub项目地址
    ```
 
@@ -86,26 +85,26 @@ tags:
 
 4. 创建分支Hexo
 
-   ```
+   ```git
    git checkout -b hexo
    ```
 
 5. 将复制过来的文件提交到暂存区
 
-   ```
+   ```git
    git add --all
    git commit -m "Hexo源文件"
    ```
 
 6. 推送到GitHub
 
-   ```
+   ```git
    git push --set-upstream origin hexo
    ```
 
 7. 后面在其它电脑使用的时候，直接克隆分支hexo项目，再安装依赖
 
-   ```
+   ```git
    git clone -b hexo GitHub项目地址
    ```
 
@@ -115,14 +114,14 @@ tags:
 
   查看用户名和邮箱
 
-  ```
+  ```git
   git config user.name
   git config user.email
   ```
 
   设置用户名和邮箱
 
-  ```
+  ```git
   git config --global user.name "用户名"
   git config --global user.email "邮箱"
   ```
