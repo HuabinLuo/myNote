@@ -126,4 +126,4 @@ categories: 杂项
   git config --global user.email "邮箱"
   ```
 
-- 如果创建Hexo项目时需要安装主题，请不要使用git clone 安，否则在源文件推送到GitHub上时，不会推送主题文件，建议下载主题包，复制进Hexo项目主题文件夹中
+- 如果创建Hexo项目时需要安装主题，请不要使用git clone 安装，否则在源文件推送到GitHub上时，不会推送主题文件，建议下载主题包，复制进Hexo项目主题文件夹中
