@@ -98,27 +98,30 @@
 
 
 
-  <meta name="description" content="前提 GitHub 账号及相关配置  安装 Hexo   Github 新建项目 在项目设置中查看 GitHub Pages 的地址   Hexo 查看文档进行安装Node.js和Git  安装 Hexo 1npm install -g hexo-cli  建站 123hexo init 项目名cd 项目名npm install  如需安装主题，建议去相关主题的 GitHub 上下载包，复制进项目">
+  <meta name="description" content="前言看了很多其他人写的文章，从中挑选出几篇很有帮助的文章：  彻底理解JavaScript原型 JavaScript深入之从原型到原型链 详解JS原型链与继承 JavaScript 世界万物诞生记  三个要点 所有对象都有[[prototype]]属性（通过__proto__访问) 只有函数对象才有prototype属性（可能有例外情况） 所有原型对象都有constructor属性  例子与其说一">
+<meta name="keywords" content="JavaScript">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Github Page+Hexo搭建个人博客">
-<meta property="og:url" content="https://huabinluo.github.io/myNote/2019/03/15/Github Page+Hexo搭建个人博客/index.html">
+<meta property="og:title" content="原型相关">
+<meta property="og:url" content="https://huabinluo.github.io/myNote/2019/04/08/原型相关/index.html">
 <meta property="og:site_name" content="个人笔记">
-<meta property="og:description" content="前提 GitHub 账号及相关配置  安装 Hexo   Github 新建项目 在项目设置中查看 GitHub Pages 的地址   Hexo 查看文档进行安装Node.js和Git  安装 Hexo 1npm install -g hexo-cli  建站 123hexo init 项目名cd 项目名npm install  如需安装主题，建议去相关主题的 GitHub 上下载包，复制进项目">
+<meta property="og:description" content="前言看了很多其他人写的文章，从中挑选出几篇很有帮助的文章：  彻底理解JavaScript原型 JavaScript深入之从原型到原型链 详解JS原型链与继承 JavaScript 世界万物诞生记  三个要点 所有对象都有[[prototype]]属性（通过__proto__访问) 只有函数对象才有prototype属性（可能有例外情况） 所有原型对象都有constructor属性  例子与其说一">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https://huabinluo.github.io/myNote/2019/03/15/Github%20Page+Hexo搭建个人博客/credte%20repository.png">
-<meta property="og:image" content="https://huabinluo.github.io/myNote/2019/03/15/Github%20Page+Hexo搭建个人博客/GitHub%20page%20site.png">
-<meta property="og:updated_time" content="2019-04-04T05:44:03.873Z">
+<meta property="og:image" content="https://huabinluo.github.io/myNote/2019/04/08/原型相关/new.png">
+<meta property="og:image" content="https://huabinluo.github.io/myNote/2019/04/08/原型相关/prototype.png">
+<meta property="og:image" content="https://huabinluo.github.io/myNote/2019/04/08/原型相关/constructor.png">
+<meta property="og:image" content="https://huabinluo.github.io/myNote/2019/04/08/原型相关/proto.png">
+<meta property="og:updated_time" content="2019-04-09T03:18:18.549Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Github Page+Hexo搭建个人博客">
-<meta name="twitter:description" content="前提 GitHub 账号及相关配置  安装 Hexo   Github 新建项目 在项目设置中查看 GitHub Pages 的地址   Hexo 查看文档进行安装Node.js和Git  安装 Hexo 1npm install -g hexo-cli  建站 123hexo init 项目名cd 项目名npm install  如需安装主题，建议去相关主题的 GitHub 上下载包，复制进项目">
-<meta name="twitter:image" content="https://huabinluo.github.io/myNote/2019/03/15/Github%20Page+Hexo搭建个人博客/credte%20repository.png">
+<meta name="twitter:title" content="原型相关">
+<meta name="twitter:description" content="前言看了很多其他人写的文章，从中挑选出几篇很有帮助的文章：  彻底理解JavaScript原型 JavaScript深入之从原型到原型链 详解JS原型链与继承 JavaScript 世界万物诞生记  三个要点 所有对象都有[[prototype]]属性（通过__proto__访问) 只有函数对象才有prototype属性（可能有例外情况） 所有原型对象都有constructor属性  例子与其说一">
+<meta name="twitter:image" content="https://huabinluo.github.io/myNote/2019/04/08/原型相关/new.png">
 
 
 
 
 
 
-  <link rel="canonical" href="https://huabinluo.github.io/myNote/2019/03/15/Github Page+Hexo搭建个人博客/">
+  <link rel="canonical" href="https://huabinluo.github.io/myNote/2019/04/08/原型相关/">
 
 
 
@@ -128,7 +131,7 @@
   };
 </script>
 
-  <title>Github Page+Hexo搭建个人博客 | 个人笔记</title>
+  <title>原型相关 | 个人笔记</title>
   
 
 
@@ -327,7 +330,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://huabinluo.github.io/myNote/myNote/2019/03/15/Github Page+Hexo搭建个人博客/">
+    <link itemprop="mainEntityOfPage" href="https://huabinluo.github.io/myNote/myNote/2019/04/08/原型相关/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Huabin Luo">
@@ -344,7 +347,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Github Page+Hexo搭建个人博客
+          <h1 class="post-title" itemprop="name headline">原型相关
 
               
             
@@ -370,7 +373,7 @@
                 
               
 
-              <time title="创建时间：2019-03-15 11:07:50" itemprop="dateCreated datePublished" datetime="2019-03-15T11:07:50+08:00">2019-03-15</time>
+              <time title="创建时间：2019-04-08 10:09:37" itemprop="dateCreated datePublished" datetime="2019-04-08T10:09:37+08:00">2019-04-08</time>
             
 
             
@@ -387,7 +390,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-04-04 13:44:03" itemprop="dateModified" datetime="2019-04-04T13:44:03+08:00">2019-04-04</time>
+                <time title="修改时间：2019-04-09 11:18:18" itemprop="dateModified" datetime="2019-04-09T11:18:18+08:00">2019-04-09</time>
               
             
           </span>
@@ -404,7 +407,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/myNote/categories/杂项/" itemprop="url" rel="index"><span itemprop="name">杂项</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/myNote/categories/JavaScript知识/" itemprop="url" rel="index"><span itemprop="name">JavaScript知识</span></a></span>
 
                 
                 
@@ -439,74 +442,34 @@
       
 
       
-        <h1 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h1><ul>
-<li><p><a href="https://github.com/" target="_blank" rel="noopener">GitHub 账号</a>及相关配置</p>
-</li>
-<li><p><a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">安装 Hexo</a></p>
-</li>
+        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>看了很多其他人写的文章，从中挑选出几篇很有帮助的文章：</p>
+<ul>
+<li><a href="https://www.cnblogs.com/wilber2013/p/4924309.html" target="_blank" rel="noopener">彻底理解JavaScript原型</a></li>
+<li><a href="https://github.com/mqyqingfeng/Blog/issues/2" target="_blank" rel="noopener">JavaScript深入之从原型到原型链</a></li>
+<li><a href="http://louiszhai.github.io/2015/12/15/prototypeChain/" target="_blank" rel="noopener">详解JS原型链与继承</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/22989691" target="_blank" rel="noopener">JavaScript 世界万物诞生记</a></li>
 </ul>
-<h1 id="Github"><a href="#Github" class="headerlink" title="Github"></a>Github</h1><ol>
-<li>新建项目<img src="/myNote/2019/03/15/Github Page+Hexo搭建个人博客/credte repository.png" alt></li>
-<li>在项目设置中查看 GitHub Pages 的地址 <img src="/myNote/2019/03/15/Github Page+Hexo搭建个人博客/GitHub page site.png" alt></li>
-</ol>
-<h1 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h1><ol>
-<li><p>查看文档进行安装<a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a>和<a href="https://git-scm.com/" target="_blank" rel="noopener">Git</a></p>
-</li>
-<li><p>安装 Hexo</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>建站</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init 项目名</span><br><span class="line">cd 项目名</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>如需安装主题，建议去相关主题的 GitHub 上下载包，复制进项目主题文件夹中，不要克隆</p>
-</li>
-<li><p>启动服务器查看内容</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h1 id="将建立的博客与-Github-Page-相关联"><a href="#将建立的博客与-Github-Page-相关联" class="headerlink" title="将建立的博客与 Github Page 相关联"></a>将建立的博客与 Github Page 相关联</h1><ol>
-<li><p>在 Hexo 建立的项目中安装依赖</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>打开 Hexo 建立的项目文件夹下的_config.yml 文件，配置如下信息：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">url: https://huabinluo.github.io/myNote/   （Github Page地址,涉及样式获取）</span><br><span class="line">root: /myNote/</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line"> type: git</span><br><span class="line"> repository: https://github.com/HuabinLuo/myNote.git    (Github项目地址)</span><br><span class="line"> branch: master</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>执行推送命令</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h1 id="将项目源文件推送到-Github-上，方便迁移"><a href="#将项目源文件推送到-Github-上，方便迁移" class="headerlink" title="将项目源文件推送到 Github 上，方便迁移"></a>将项目源文件推送到 Github 上，方便迁移</h1><ol>
-<li><p>将 GitHub 上的项目克隆到本地</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone GitHub项目地址</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>删除除了.git 外的所有文件</p>
-</li>
-<li><p>将 Hexo 创建的项目中的所有文件复制进来，安装的依赖文件和使用 Hexo 命令生成的静态文件可以不用复制</p>
-</li>
-<li><p>创建分支 Hexo</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout -b hexo</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>将复制过来的文件提交到暂存区</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git add --all</span><br><span class="line">git commit -m &quot;Hexo源文件&quot;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>推送到 GitHub</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push --set-upstream origin hexo</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>后面在其它电脑使用的时候，直接克隆分支 hexo 项目，再安装依赖</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone -b hexo GitHub项目地址</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h1 id="注意项"><a href="#注意项" class="headerlink" title="注意项"></a>注意项</h1><ul>
-<li><p>如果 Hexo 与 GitHub Page 关联时，推送不成功，请检查 git 是否有设置用户名和邮箱</p>
-<p>查看用户名和邮箱</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config user.name</span><br><span class="line">git config user.email</span><br></pre></td></tr></table></figure>
-<p>设置用户名和邮箱</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;用户名&quot;</span><br><span class="line">git config --global user.email &quot;邮箱&quot;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>如果创建 Hexo 项目时需要安装主题，请不要使用 git clone 安装，否则在源文件推送到 GitHub 上时，不会推送主题文件，建议下载主题包，复制进 Hexo 项目主题文件夹中</p>
-</li>
+<h1 id="三个要点"><a href="#三个要点" class="headerlink" title="三个要点"></a>三个要点</h1><ul>
+<li>所有对象都有[[prototype]]属性（通过__proto__访问)</li>
+<li>只有函数对象才有prototype属性（可能有例外情况）</li>
+<li>所有原型对象都有constructor属性</li>
 </ul>
+<h1 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h1><p>与其说一些很是抽象的概念，还不如实例分析来的实在。例：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">Person</span>(<span class="params">name,age</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">this</span>.name = name;</span><br><span class="line">  <span class="keyword">this</span>.age = age;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">var</span> person1 = <span class="keyword">new</span> Person()</span><br></pre></td></tr></table></figure>
+<p><img src="/myNote/2019/04/08/原型相关/new.png" alt="构造函数创建实例"></p>
+<h1 id="new"><a href="#new" class="headerlink" title="new"></a>new</h1><p>构造函数Person通过new创建实例的时候，做了什么事情？</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> obj = <span class="keyword">new</span> <span class="built_in">Object</span>(),</span><br><span class="line"></span><br><span class="line">Constructor = [].shift.call(<span class="built_in">arguments</span>);</span><br><span class="line"></span><br><span class="line">obj.__proto__ = Constructor.prototype;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> res = Constructor.apply(obj, <span class="built_in">arguments</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">return</span> <span class="keyword">typeof</span> res === <span class="string">'object'</span> ? res : obj;</span><br></pre></td></tr></table></figure>
+<h1 id="原型"><a href="#原型" class="headerlink" title="原型"></a>原型</h1><p>从上面的new操作中可以看出，构造函数创建实例的时候，prototype属性值被赋值给实例对象的__proto__属性，即：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">person1.__proto__ === Person.prototype</span><br></pre></td></tr></table></figure>
+<p><img src="/myNote/2019/04/08/原型相关/prototype.png" alt="原型"></p>
+<p>从中可以看出，构造函数通过prototype属性可以找到实例的原型，实例可以通过__proto__属性找到它的原型，那么，疑问产生了？构造函数和实例都有相应的属性可以找到原型，原型可以反找回他们吗？</p>
+<p><img src="/myNote/2019/04/08/原型相关/constructor.png" alt="constructor"></p>
+<p>原型对象可以根据constructor属性找到相应的构造函数，却没有相关属性可以找到实例，因为一个构造函数可以创建多个实例，而所有实例对应的是同一个原型对象。</p>
+<p>再深入的思考下，构造函数会有原型吗？原型的原型又是什么？以此类推……</p>
+<p>所有的函数（包括Function，Object）的原型都是”Function.prototype”，所有对象的原型都将追溯到”Object {}”对象，直到链条的最终端null，如下图</p>
+<p><img src="/myNote/2019/04/08/原型相关/proto.png" alt="原型"></p>
+<p>相互关联的原型组成的链状结构就是原型链了，实例对象就是通过这条链寻找自身不具有的属性，如果直到链条的最终端null都还未找到，则返回undefined。</p>
+<h1 id="注意点"><a href="#注意点" class="headerlink" title="注意点"></a>注意点</h1><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">person1.constructor === Person <span class="comment">// true，并不是person1具有constructor属性，而是通过原型链在它的原型上找到的属性。可以使用方法hasOwnProperty判断，指示对象自身属性中是否具有指定的属性。</span></span><br><span class="line">person1.hasOwnProperty(<span class="string">"constructor"</span>) <span class="comment">// false</span></span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -528,6 +491,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/myNote/tags/JavaScript/" rel="tag"># JavaScript</a>
+          
+        </div>
+      
 
       
       
@@ -537,15 +506,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/myNote/2019/03/27/关于执行上下文/" rel="next" title="关于执行上下文">
+                <i class="fa fa-chevron-left"></i> 关于执行上下文
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/myNote/2019/03/19/原生微信小程序使用Font-Awesome和Iconfont两种字体图标库/" rel="prev" title="原生微信小程序使用Font Awesome和Iconfont两种字体图标库">
-                原生微信小程序使用Font Awesome和Iconfont两种字体图标库 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -696,7 +665,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#前提"><span class="nav-number">1.</span> <span class="nav-text">前提</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Github"><span class="nav-number">2.</span> <span class="nav-text">Github</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Hexo"><span class="nav-number">3.</span> <span class="nav-text">Hexo</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#将建立的博客与-Github-Page-相关联"><span class="nav-number">4.</span> <span class="nav-text">将建立的博客与 Github Page 相关联</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#将项目源文件推送到-Github-上，方便迁移"><span class="nav-number">5.</span> <span class="nav-text">将项目源文件推送到 Github 上，方便迁移</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#注意项"><span class="nav-number">6.</span> <span class="nav-text">注意项</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#三个要点"><span class="nav-number">2.</span> <span class="nav-text">三个要点</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#例子"><span class="nav-number">3.</span> <span class="nav-text">例子</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#new"><span class="nav-number">4.</span> <span class="nav-text">new</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#原型"><span class="nav-number">5.</span> <span class="nav-text">原型</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#注意点"><span class="nav-number">6.</span> <span class="nav-text">注意点</span></a></li></ol></div>
             
 
           </div>

@@ -98,18 +98,18 @@
 
 
 
-  <meta name="description" content="Font Awesome 下载Font Awesome包  解压包后，将需要使用的css文件更改为fontAwesome.wxss  将fonts文件夹和fontAwesome.wxss，复制到微信小程序目录中  在需要使用字体的页面wxss文件中引用fontAwesome.wxss 1@import &apos;路径/fontAwesome.wxss&apos;;  修改fontAwesome.wxss中@font">
+  <meta name="description" content="Font Awesome 下载Font Awesome包  解压包后，将需要使用的 css 文件更改为 fontAwesome.wxss  将 fonts 文件夹和 fontAwesome.wxss，复制到微信小程序目录中  在需要使用字体的页面 wxss 文件中引用 fontAwesome.wxss 1@import &quot;路径/fontAwesome.wxss&quot;;  修改 fontAwesome.">
 <meta name="keywords" content="wxss">
 <meta property="og:type" content="article">
 <meta property="og:title" content="原生微信小程序使用Font Awesome和Iconfont两种字体图标库">
 <meta property="og:url" content="https://huabinluo.github.io/myNote/2019/03/19/原生微信小程序使用Font-Awesome和Iconfont两种字体图标库/index.html">
 <meta property="og:site_name" content="个人笔记">
-<meta property="og:description" content="Font Awesome 下载Font Awesome包  解压包后，将需要使用的css文件更改为fontAwesome.wxss  将fonts文件夹和fontAwesome.wxss，复制到微信小程序目录中  在需要使用字体的页面wxss文件中引用fontAwesome.wxss 1@import &apos;路径/fontAwesome.wxss&apos;;  修改fontAwesome.wxss中@font">
+<meta property="og:description" content="Font Awesome 下载Font Awesome包  解压包后，将需要使用的 css 文件更改为 fontAwesome.wxss  将 fonts 文件夹和 fontAwesome.wxss，复制到微信小程序目录中  在需要使用字体的页面 wxss 文件中引用 fontAwesome.wxss 1@import &quot;路径/fontAwesome.wxss&quot;;  修改 fontAwesome.">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-03-19T07:53:41.948Z">
+<meta property="og:updated_time" content="2019-04-04T05:43:36.406Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="原生微信小程序使用Font Awesome和Iconfont两种字体图标库">
-<meta name="twitter:description" content="Font Awesome 下载Font Awesome包  解压包后，将需要使用的css文件更改为fontAwesome.wxss  将fonts文件夹和fontAwesome.wxss，复制到微信小程序目录中  在需要使用字体的页面wxss文件中引用fontAwesome.wxss 1@import &apos;路径/fontAwesome.wxss&apos;;  修改fontAwesome.wxss中@font">
+<meta name="twitter:description" content="Font Awesome 下载Font Awesome包  解压包后，将需要使用的 css 文件更改为 fontAwesome.wxss  将 fonts 文件夹和 fontAwesome.wxss，复制到微信小程序目录中  在需要使用字体的页面 wxss 文件中引用 fontAwesome.wxss 1@import &quot;路径/fontAwesome.wxss&quot;;  修改 fontAwesome.">
 
 
 
@@ -368,12 +368,24 @@
                 
               
 
-              <time title="创建时间：2019-03-19 14:55:46 / 修改时间：15:53:41" itemprop="dateCreated datePublished" datetime="2019-03-19T14:55:46+08:00">2019-03-19</time>
+              <time title="创建时间：2019-03-19 14:55:46" itemprop="dateCreated datePublished" datetime="2019-03-19T14:55:46+08:00">2019-03-19</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-04-04 13:43:36" itemprop="dateModified" datetime="2019-04-04T13:43:36+08:00">2019-04-04</time>
               
             
           </span>
@@ -428,17 +440,17 @@
         <h1 id="Font-Awesome"><a href="#Font-Awesome" class="headerlink" title="Font Awesome"></a>Font Awesome</h1><ol>
 <li><p>下载<a href="http://fontawesome.dashgame.com/" target="_blank" rel="noopener">Font Awesome</a>包</p>
 </li>
-<li><p>解压包后，将需要使用的css文件更改为fontAwesome.wxss</p>
+<li><p>解压包后，将需要使用的 css 文件更改为 fontAwesome.wxss</p>
 </li>
-<li><p>将fonts文件夹和fontAwesome.wxss，复制到微信小程序目录中</p>
+<li><p>将 fonts 文件夹和 fontAwesome.wxss，复制到微信小程序目录中</p>
 </li>
-<li><p>在需要使用字体的页面wxss文件中引用fontAwesome.wxss</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@<span class="keyword">import</span> <span class="string">'路径/fontAwesome.wxss'</span>;</span><br></pre></td></tr></table></figure>
+<li><p>在需要使用字体的页面 wxss 文件中引用 fontAwesome.wxss</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@<span class="keyword">import</span> <span class="string">"路径/fontAwesome.wxss"</span>;</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>修改fontAwesome.wxss中@font-face的访问路径，可以使用相对路径或者绝对路径。但需要注意的是，相对路径为相对使用字体页面的路径，而不是相对fontAwesome.wxss的路径。</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">@<span class="keyword">font-face</span> &#123;</span><br><span class="line">    <span class="attribute">font-family</span>: <span class="string">'FontAwesome'</span>;</span><br><span class="line">    <span class="attribute">src</span>: <span class="built_in">url</span>(<span class="string">'相对使用字体页面的路径/fonts/fontawesome-webfont.eot?v=4.7.0'</span>);</span><br><span class="line">    <span class="attribute">src</span>: <span class="built_in">url</span>(<span class="string">'相对使用字体页面的路径/fonts/fontawesome-webfont.eot?#iefix&amp;v=4.7.0'</span>) <span class="built_in">format</span>(<span class="string">'embedded-opentype'</span>), <span class="built_in">url</span>(<span class="string">'相对使用字体页面的路径/fonts/fontawesome-webfont.woff2?v=4.7.0'</span>) <span class="built_in">format</span>(<span class="string">'woff2'</span>), <span class="built_in">url</span>(<span class="string">'相对使用字体页面的路径/fonts/fontawesome-webfont.woff?v=4.7.0'</span>) <span class="built_in">format</span>(<span class="string">'woff'</span>), <span class="built_in">url</span>(<span class="string">'相对使用字体页面的路径/fonts/fontawesome-webfont.ttf?v=4.7.0'</span>) <span class="built_in">format</span>(<span class="string">'truetype'</span>), <span class="built_in">url</span>(<span class="string">'相对使用字体页面的路径/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular'</span>) <span class="built_in">format</span>(<span class="string">'svg'</span>);</span><br><span class="line">    <span class="attribute">font-weight</span>: normal;</span><br><span class="line">    <span class="attribute">font-style</span>: normal;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<li><p>修改 fontAwesome.wxss 中@font-face 的访问路径，可以使用相对路径或者绝对路径。但需要注意的是，相对路径为相对使用字体页面的路径，而不是相对 fontAwesome.wxss 的路径。</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">@<span class="keyword">font-face</span> &#123;</span><br><span class="line">  <span class="attribute">font-family</span>: <span class="string">"FontAwesome"</span>;</span><br><span class="line">  <span class="attribute">src</span>: <span class="built_in">url</span>(<span class="string">"相对使用字体页面的路径/fonts/fontawesome-webfont.eot?v=4.7.0"</span>);</span><br><span class="line">  <span class="attribute">src</span>: <span class="built_in">url</span>(<span class="string">"相对使用字体页面的路径/fonts/fontawesome-webfont.eot?#iefix&amp;v=4.7.0"</span>)</span><br><span class="line">      <span class="built_in">format</span>(<span class="string">"embedded-opentype"</span>), <span class="built_in">url</span>(<span class="string">"相对使用字体页面的路径/fonts/fontawesome-webfont.woff2?v=4.7.0"</span>)</span><br><span class="line">      <span class="built_in">format</span>(<span class="string">"woff2"</span>),</span><br><span class="line">    <span class="built_in">url</span>(<span class="string">"相对使用字体页面的路径/fonts/fontawesome-webfont.woff?v=4.7.0"</span>)</span><br><span class="line">      <span class="built_in">format</span>(<span class="string">"woff"</span>), <span class="built_in">url</span>(<span class="string">"相对使用字体页面的路径/fonts/fontawesome-webfont.ttf?v=4.7.0"</span>)</span><br><span class="line">      <span class="built_in">format</span>(<span class="string">"truetype"</span>),</span><br><span class="line">    <span class="built_in">url</span>(<span class="string">"相对使用字体页面的路径/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular"</span>)</span><br><span class="line">      <span class="built_in">format</span>(<span class="string">"svg"</span>);</span><br><span class="line">  <span class="attribute">font-weight</span>: normal;</span><br><span class="line">  <span class="attribute">font-style</span>: normal;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>最后，直接在页面wxml中根据官网示例使用即可，如：</p>
+<li><p>最后，直接在页面 wxml 中根据官网示例使用即可，如：</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">"fa fa-xxx"</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br></pre></td></tr></table></figure>
 </li>
 </ol>
@@ -447,13 +459,14 @@
 </li>
 <li><p>直接下载素材或者添加到项目后再下载到本地</p>
 </li>
-<li><p>解压包后，将iconfont.css更改为iconfont.wxss，更改后复制到微信小程序目录中</p>
+<li><p>解压包后，将 iconfont.css 更改为 iconfont.wxss，更改后复制到微信小程序目录中</p>
 </li>
-<li><p>在需要使用字体的页面wxss文件中引用iconfont.wxss</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@<span class="keyword">import</span> <span class="string">'路径/iconfont.wxss'</span>;</span><br></pre></td></tr></table></figure>
+<li><p>在需要使用字体的页面 wxss 文件中引用 iconfont.wxss</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@<span class="keyword">import</span> <span class="string">"路径/iconfont.wxss"</span>;</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>最后，直接在页面wxml中根据示例使用即可，如：</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">"iconfont icon-xxx"</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br></pre></td></tr></table></figure></li>
+<li><p>最后，直接在页面 wxml 中根据示例使用即可，如：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">"iconfont icon-xxx"</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
 </ol>
 
       
@@ -572,7 +585,7 @@
                 
                   <a href="/myNote/archives/">
                 
-                    <span class="site-state-item-count">4</span>
+                    <span class="site-state-item-count">5</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
